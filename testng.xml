@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<parameter name="apiKey" value="BldQOVGuPU4lZYe1TLollclp0cprGCnD" />
+  	<parameter name="address1" value="Isla Martinica 2489, Guadalajara, Jalisco" />
+  	<parameter name="address2" value="Teotihuacan 2887, Zapopan, Jalisco" />
+    <classes>
+      <class name="com.geosvc.test.GeoSvcApiTest"/>
+      <class name="com.geosvc.test.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
